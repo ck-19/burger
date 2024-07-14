@@ -1,0 +1,105 @@
+body{
+    background: rgb(5, 3, 32);
+}
+.bike{
+    height: 520px;
+    width: 1255px;
+    position: relative;
+
+}
+.you{
+    color: aliceblue;
+    position: absolute;
+    bottom:450px;
+    left: 40px;
+    font-size: 30px;
+    animation-name: square;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    
+}
+.hun{
+    color: aliceblue;
+    position: absolute;
+    bottom:250px;
+    left: 40px;
+    font-size: 30px;
+    animation-name: text;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+  
+    
+}
+.partner{
+    color: aliceblue;
+    position: absolute;
+    bottom:50px;
+    left: 40px;
+    font-size: 30px;
+    animation-name: circle;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    
+  
+}
+@keyframes square{
+    0%{
+        position:absolute;
+        bottom: 900px;
+    }
+    50%{
+        position: absolute;
+        bottom: 450px;
+    }
+}
+@keyframes text {
+    0%{
+        position: absolute;
+        bottom: 900px;
+    }
+    100%{
+        position: absolute;
+        bottom: 250px;
+    }
+}
+@keyframes circle {
+    0%{
+        position: absolute;
+        bottom: 900px;
+    }
+    100%{
+        position: absolute;
+        bottom: 50px;
+    }   
+}
+.good{
+    color: aliceblue;
+    position: absolute;
+    bottom:450px;
+    left: 1140px;
+    font-size: 30px;
+    animation-name: square;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.food{
+    color: aliceblue;
+    position: absolute;
+    bottom:250px;
+    left: 1140px;
+    font-size: 30px;
+    animation-name: text;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.min{
+    color: aliceblue;
+    position: absolute;
+    bottom:50px;
+    left: 1140px;
+    font-size: 30px;
+    animation-name: circle;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+

@@ -1,0 +1,371 @@
+
+img{
+    height: 530px;
+    width: 400px;
+    
+    
+}
+h3{
+    position: absolute;
+    left: 440px;
+    bottom: 470px;
+}
+.box1{
+    height: 20px;
+    width: 40px;
+    border: 2px solid black;
+    position: absolute;
+    left: 440px;
+    bottom: 450px;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+.box2{
+    height: 20px;
+    width: 40px;
+    border: 2px solid black;
+    position: absolute;
+    left: 500px;
+    bottom: 450px;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+.box3{
+    height: 20px;
+    width: 40px;
+    border: 2px solid black;
+    position: absolute;
+    left: 560px;
+    bottom: 450px;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+.box4{
+    height: 20px;
+    width: 40px;
+    border: 2px solid black;
+    position: absolute;
+    left: 625px;
+    bottom: 450px;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+.mask{
+    height: 15px;
+    width: 40px;
+}
+hr{
+    position: absolute;
+   top: 100px;
+    left: 10px;
+}
+.side{
+    position:absolute;
+    left: 1000px;
+    top: 10px;
+}
+.road{
+    height: 20px;
+    position: absolute;
+    left: 810px;
+   top: 60px;
+}
+.one{
+    position: absolute;
+    left: 1030px;
+   top: 40px;
+}
+.drive{
+    height: 70px;
+    position: absolute;
+    left: 330px;
+    bottom: 300px;
+}
+.tick{
+    height: 10px;
+    position:absolute;
+    bottom: 370px;
+   left: 470px;
+}
+.tick1{
+    height: 10px;
+    position:absolute;
+    bottom: 325px;
+    left: 470px;
+}
+.tick2{
+    height: 10px;
+    position: absolute;
+    bottom: 275px;
+    left: 470px;
+}
+.side1{
+    position:absolute;
+    left: 1000px;
+    top: 150px;
+}
+.road1{
+    height: 20px;
+    position: absolute;
+    left: 810px;
+    top: 200px;
+}
+.two{
+    position: absolute;
+    left: 1030px;
+    top: 180px;
+}
+.para1{
+    position:absolute;
+    left: 680px;
+    bottom: 350px;
+}
+.para2{
+    position: absolute;
+    left: 680px;
+    bottom: 305px;
+}
+.para3{
+    position: absolute;
+    left: 680px;
+    bottom: 255px;
+}
+.box5{
+    height: 40px;
+    width: 180px;
+    border: 2px solid black;
+    position: absolute;
+    left: 420px;
+    bottom: 80px;
+    border-radius: 50px 5px 5px 50px;
+    padding-top: 9px;
+    background-color: orange;
+    }
+.box6{
+        height: 40px;
+        width: 180px;
+        border: 2px solid black;
+        position: absolute;
+        left: 603px;
+        bottom: 80px;
+        border-radius:5px;
+        padding-top: 9px;
+        background-color: green;
+}
+.box7{
+    height: 40px;
+    width: 160px;
+    border: 2px solid black;
+    position: absolute;
+    left: 785px;
+    bottom: 80px;
+    border-radius: 5px 50px 50px 5px;
+    padding-top: 9px;
+    background-color: gray;
+}
+.phone{
+    height: 20px;
+    position: relative;
+   right: 110px;
+    top: 5px;
+}
+.wp{
+    height: 20px;
+    position: relative;
+    right: 110px;
+    top: 5px;
+}
+.tele{
+    height: 20px;
+    position: relative;
+    right: 125px;
+    top: 5px;
+}
+@media all and (max-width:430px) {
+    img{
+        height: 400px;
+        width: 430px;   
+        margin-left: 0px;
+    }
+    h3{
+        position: absolute;
+        left: 20px;
+        bottom: 470px;
+    }
+    .box1{
+        height: 20px;
+        width: 40px;
+        border: 2px solid black;
+        position: absolute;
+        left: 20px;
+        bottom: 450px;
+        border-radius: 10px;
+        padding-top: 2px;
+    }
+    .box2{
+        height: 20px;
+        width: 40px;
+        border: 2px solid black;
+        position: absolute;
+        left: 70px;
+        bottom: 450px;
+        border-radius: 10px;
+        padding-top: 2px;
+    }
+    .box3{
+        height: 20px;
+        width: 40px;
+        border: 2px solid black;
+        position: absolute;
+        left: 120px;
+        bottom: 450px;
+        border-radius: 10px;
+        padding-top: 2px;
+    }
+    .box4{
+        height: 20px;
+        width: 40px;
+        border: 2px solid black;
+        position: absolute;
+        left: 170px;
+        bottom: 450px;
+        border-radius: 10px;
+        padding-top: 2px;
+    }
+    .mask{
+        height: 15px;
+        width: 40px;
+    }
+    .drive{
+        height: 40px;
+        position: absolute;
+        left: 140px;
+        bottom: 470px;
+    }
+    .side{
+        position:absolute;
+        left: 30px;
+        top: 510px;
+        font-size: 30px;
+    }
+    .road{
+        height: 20px;
+        position: absolute;
+        left: 60px;
+        top: 590px;
+    }
+    .one{
+        position: absolute;
+        left: 70px;
+        top: 580px;
+    }
+    .side1{
+        position:absolute;
+        left: 240px;
+        top: 510px;
+        font-size: 30px;
+    }
+    .road1{
+        height: 20px;
+        position: absolute;
+        left: 10px;
+        top: 460px;
+    }
+    .two{
+        position: absolute;
+        left: 300px;
+        top: 580px;
+    }
+    .para1{
+        position:absolute;
+        left: 40px;
+        bottom: 210px;
+        font-size: 20px;
+    }
+    .para2{
+        position: absolute;
+        left: 40px;
+        bottom: 170px;
+        font-size: 20px;
+    }
+    .para3{
+        position: absolute;
+        left: 40px;
+        bottom: 130px;
+        font-size: 20px;
+    }
+    .tick{
+        height: 10px;
+        position:absolute;
+        bottom: 490px;
+        left: 10px;
+    }
+    .tick1{
+        height: 10px;
+        position:absolute;
+        bottom: 500px;
+        left: 10px;
+    }
+    .tick2{
+        height: 10px;
+        position: absolute;
+        bottom: 510px;
+        left: 10px;
+    }
+    .box5{
+        height: 40px;
+        width: 130px;
+        border: 2px solid black;
+        position: absolute;
+        left: 0px;
+        top: 879px;
+        border-radius: 5px 5px 5px 10px;
+        padding-top: 9px;
+        background-color: orange;
+        }
+    .box6{
+            height: 40px;
+            width: 130px;
+            border: 2px solid black;
+            position: absolute;
+            left: 130px;
+           top: 879px;
+            border-radius:5px;
+            padding-top: 9px;
+            background-color: green;
+    }
+    .box7{
+        height: 40px;
+        width: 170px;
+        border: 2px solid black;
+        position: absolute;
+        left: 260px;
+        top: 879px;
+        border-radius: 5px 5px 5px 10px;
+        padding-top: 9px;
+        background-color: gray;
+    }
+    .phone{
+        height: 20px;
+        position: relative;
+        right:155px;
+        top: 5px;
+    }
+    .wp{
+        height: 20px;
+        position: relative;
+        right: 145px;
+        top: 5px;
+    }
+    .tele{
+        height: 20px;
+        position: relative;
+        right: 135px;
+        top: 5px;
+    }
+   
+   
+}
+
+
+
